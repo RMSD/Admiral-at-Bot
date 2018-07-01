@@ -56,3 +56,9 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# IDE files
+.vscode/
+
+# Protected files
+token.txt
