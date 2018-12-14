@@ -23,7 +23,7 @@ async def on_ready():
 @bot.event
 async def on_message(message : discord.Message):
     if bot.user.mentioned_in(message):
-        atList = [ m.mention for m in message.mentions if m.mention != bot.user.mention]
+        atList = [ m.mention for m in message.mentions if m != bot.user]
         if len(atList) > 0:
             if message.author.permissions_in(message.channel).mention_everyone:
                 await message.channel.send(" ".join(atList))
