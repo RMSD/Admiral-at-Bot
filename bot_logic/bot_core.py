@@ -25,10 +25,11 @@ async def on_message(message : discord.Message):
     if bot.user.mentioned_in(message):
         atList = [ m.mention for m in message.mentions if m != bot.user]
         if len(atList) > 0:
-            if message.author.permissions_in(message.channel).mention_everyone:
+            if message.author.permissions_in(message.channel).manage_channels:
+                atList.append(message.author.mention)
                 await message.channel.send(" ".join(atList))
             else:
-                await message.channel.send("You need the Mention Everyone user permission to use this feature, please contact the server administrator.")
+                await message.channel.send("You need the Manage Channels user permission to use this feature, please contact the server administrator.")
         else:
             await message.channel.send(message.author.mention)
         
