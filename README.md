@@ -1,6 +1,6 @@
 # Admiral At Bot
 
-Welcome to the world's crappiest Discord bot. I mainly made this as a friend wanted a practical joke bot and I saw this as a good opertunity to read about the Discord's API. Don't come in here expecting actual engineering effort, but if you want a one function bot starting point, knock yourself out.
+Welcome to the world's crappiest Discord bot. This is a toy project as a friend wanted a practical joke bot and I saw this as a good opertunity to read about the Discord's API. Don't come in here expecting actual engineering effort, but if you want a one function bot starting point, knock yourself out.
 
 This bot is surprisingly used in some public discord servers as *Mr. Ping*.
 
