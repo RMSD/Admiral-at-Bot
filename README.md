@@ -6,7 +6,7 @@ This bot is surprisingly used in some public discord servers as *Mr. Ping*.
 
 ## How to Run
 
-Put API key in token.txt, run `python3 bot_core.py` in your shell, dumb simple. Requires discord re-write and Python > 3.7.
+Put API key in a file token.txt in the bot_logic folder, run `python3 bot_core.py` in your shell, dumb simple. Requires discord re-write and Python > 3.7.
 
 ## Contributing
 
